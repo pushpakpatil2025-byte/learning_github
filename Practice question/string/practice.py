@@ -630,6 +630,8 @@ for name,values in new.items():
         print(f"this {keys} key is  present in dict")
     if values == new.values():
         print(f"this {}"
+              
+
 # Sort a dictionary by its keys (ascending & descending).
 
 # Sort a dictionary by its values.
@@ -652,7 +654,6 @@ for name,values in new.items():
 #     "101": {"name": "Roshan", "marks": 80},
 #     "102": {"name": "Om", "marks": 90}
 # }
-
 
 # Print all student names and marks.
 # 22. Add a new student entry dynamically to the above nested dictionary.
