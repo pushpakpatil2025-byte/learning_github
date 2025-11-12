@@ -599,8 +599,37 @@
 
 # Print only those keys whose values are greater than a given number (like > 50).
 
-# Check if a given value exists in the dictionary (not key).
+# shamnya = {
+#     "Alice": 45,
+#     "Bob": 72,
+#     "Charlie": 68,
+#     "David": 50,
+#     "Eve": 91,
+#     "Frank": 33,
+#     "Grace": 77
+# }
 
+# for name in shamnya.keys():
+#     if shamnya[name] > 50:
+#         print(name, shamnya[name])
+
+# Check if a given value exists in the dictionary (not key).
+new = {
+    "Alice": 45,
+    "Bob": 72,
+    "Charlie": 68,
+    "David": 50,
+    "Eve": 91,
+    "Frank": 33,
+    "Grace": 77
+}
+
+x = input(" enter the keys or values to check in dictonary : ")
+for name,values in new.items():
+    if name == new.keys():
+        print(f"this {keys} key is  present in dict")
+    if values == new.values():
+        print(f"this {}"
 # Sort a dictionary by its keys (ascending & descending).
 
 # Sort a dictionary by its values.

@@ -48,3 +48,16 @@
 # for i in range(10):
 #     dict[i] = i
 # print(dict)
+
+
+
+l1 = [1,2,3,4,5,6,7]
+
+l2 = []
+
+for i in range(len(l1)):
+    for j in range(i+1,len(l1)):
+        for  k in range (j+1,(len(l1))):
+            if (l1[i] +l1[j] + l1[k]) == 9:
+                l2.append((l1[i] , l1[j] , l1[k]))
+print(l2)
